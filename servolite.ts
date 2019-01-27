@@ -17,7 +17,7 @@ namespace kitronik_servo_lite {
      * Drives forwards. Call stop to stop
      */
     //% blockId=kitronik_servolite_servos_forward
-    //% block="drive forward"
+    //% block="drive AVANT"
     export function forward(): void {
         pins.servoWritePin(AnalogPin.P1, 0);
         pins.servoWritePin(AnalogPin.P2, 180);
